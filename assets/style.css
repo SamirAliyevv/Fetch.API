@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+.d{
+  display: none;
+}
+
+#male{
+  border-color: greenyellow;
+}
+#female{
+  border-color: red;
+}
+.a{
+  text-decoration: none;
+  color: black;
+
+}
+.btn{
+  margin-top: 20px;
+  
+}
+.search{
+  display: flex;
+  padding: 50px;
+  position: relative;
+
+}
+
+#gender{
+  position: absolute;
+  right: 26%;
+  bottom: 36%;
+}
+#more{
+  display: block;
+  position: absolute;
+  right: 20px;
+}

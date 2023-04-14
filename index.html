@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="value"></h2>
+    
+  <div class="search">
+    <div id="form" class="col-lg-4 mx-auto mt-3">
+        <input class="form-control" type="text" placeholder="Search user..." id="input" >
+    </div>
+    <select id="gender" onChange="Update()" class="ms-5">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        </select>
+
+
+  </div>
+
+    <div class="container mt-4">
+        <!-- <h3>Male Count: <span id="g_male">0</span></h3>
+        <h3>Female Count: <span id="g_female">0</span></h3> -->
+        <div id="list" class="row g-4">
+            
+        </div>
+    </div>
+    
+
+    <button class="btn btn-success" id="more"> Show more</button>
+
+
+
+
+
+
+
+
+    <script src="/assets/js/app.js"></script>
+</body>
+</html>
